@@ -1,0 +1,52 @@
+# ---------------------------------------------------------------
+# Data that is re-created by the notebooks (Step 1 downloads it)
+# ---------------------------------------------------------------
+data/raw/
+data/processed/
+
+# Vector index built by notebook 07a (rebuilt from the knowledge base)
+Code/vectordb/
+
+# Third-party literature fetched by Code/fetch_knowledge_base.py.
+# Re-create it with that script; check each publisher's terms before redistributing.
+# Code/knowledge_base/README.md is kept.
+Code/knowledge_base/*.pdf
+Code/knowledge_base/epmc_*.txt
+Code/knowledge_base/WHO*.txt
+
+# ---------------------------------------------------------------
+# Python
+# ---------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# ---------------------------------------------------------------
+# Jupyter
+# ---------------------------------------------------------------
+.ipynb_checkpoints/
+
+# ---------------------------------------------------------------
+# Secrets and local config (never commit these)
+# ---------------------------------------------------------------
+.env
+.env.*
+*.pem
+*.key
+
+# ---------------------------------------------------------------
+# OS / editor
+# ---------------------------------------------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.log

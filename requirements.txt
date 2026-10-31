@@ -1,0 +1,44 @@
+# AI-Assisted Health Risk Prediction for Life Insurance Underwriting
+# Tested with Python 3.13.5. Versions below are the ones used to produce the results.
+#
+#   python -m venv .venv
+#   pip install -r requirements.txt
+#
+# PyTorch: this project only needs the CPU build. If the default install pulls a
+# large CUDA build you do not need, install the CPU wheel first:
+#   pip install torch==2.13.0 --index-url https://download.pytorch.org/whl/cpu
+
+# --- Data handling ---
+numpy==2.4.6
+pandas==3.0.3
+pyarrow==25.0.0            # parquet read/write
+requests==2.34.2
+urllib3==2.7.0
+
+# --- Plotting ---
+matplotlib==3.11.0
+seaborn==0.13.2
+
+# --- Modelling and explainability (Steps 3-6) ---
+scikit-learn==1.9.0
+xgboost==3.3.0
+torch==2.13.0
+shap==0.52.0
+joblib==1.5.3
+
+# --- LLM agent and RAG (Steps 7 and 7a) ---
+# Also requires the Ollama app (https://ollama.com), which is not a pip package.
+langgraph==1.2.9
+langchain-core==1.4.9
+langchain-ollama==1.1.0
+chromadb==1.4.1
+pypdf==6.4.0
+
+# --- Demo UI ---
+gradio==6.20.0
+
+# --- Running the notebooks ---
+jupyterlab==4.6.1
+ipykernel==7.3.0
+ipywidgets==8.1.8
+nbformat==5.10.4

@@ -1,0 +1,35 @@
+{
+  "dataset": {
+    "n_test": 3716
+  },
+  "models": {
+    "GLM_LogisticRegression": {
+      "auroc": 0.9039,
+      "pr_auc": 0.649,
+      "f1": 0.5794,
+      "n_test": 3716
+    },
+    "XGBoost": {
+      "auroc": 0.907,
+      "pr_auc": 0.6633,
+      "f1": 0.6128,
+      "n_test": 3716
+    },
+    "NeuralNetwork": {
+      "auroc": 0.9029,
+      "pr_auc": 0.6525,
+      "f1": 0.5599,
+      "n_test": 3716
+    }
+  },
+  "best_model_by_pr_auc": "XGBoost",
+  "top_shap_features": [
+    "AGE",
+    "URXUMA",
+    "POVERTY_INCOME_RATIO",
+    "RACE_ETHNICITY_3.0",
+    "SMQ020_1.0"
+  ],
+  "n_llm_reports": 8,
+  "report_faithfulness": "8/8"
+}

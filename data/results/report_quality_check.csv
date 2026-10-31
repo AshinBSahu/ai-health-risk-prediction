@@ -1,0 +1,9 @@
+applicant_id,predicted_risk,top_shap_feature,report_mentions_top_driver,report_length_chars
+118,0.994,AGE,True,1008
+12662,0.002,AGE,True,1080
+6339,0.108,AGE,True,1132
+8673,0.108,AGE,True,1340
+10891,0.109,POVERTY_INCOME_RATIO,True,1053
+17300,0.109,AGE,True,1225
+1176,0.109,BMXWAIST,True,1505
+16988,0.109,AGE,True,1430

@@ -1,0 +1,4 @@
+,AUROC,PR-AUC,F1
+XGBoost,0.907,0.6633,0.6128
+NeuralNetwork,0.9029,0.6525,0.5599
+GLM LogisticRegression,0.9039,0.649,0.5794

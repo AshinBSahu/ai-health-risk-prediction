@@ -1,0 +1,9 @@
+applicant_id,predicted_risk,actual_outcome,words_no_rag,words_rag,citations_no_rag,citations_rag,top_driver_no_rag,top_driver_rag,passages_retrieved,mean_similarity
+118,0.9939,1,142,222,0,3,True,True,4,0.738
+12662,0.002,0,165,251,0,3,True,True,4,0.704
+6339,0.1083,0,171,187,0,2,True,True,4,0.714
+8673,0.1083,0,198,235,0,3,True,True,4,0.701
+10891,0.1086,0,148,215,0,4,True,True,4,0.714
+17300,0.1087,0,165,280,0,3,True,True,4,0.731
+1176,0.1089,0,225,224,0,4,True,True,4,0.717
+16988,0.1089,0,216,259,0,2,True,True,4,0.703
